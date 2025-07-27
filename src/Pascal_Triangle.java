@@ -1,3 +1,4 @@
+//git remote add origin https://github.com/R-purushoth/Patterns_Java.git
 public class Pascal_Triangle {
     public static void main(String[] args) {
         int row=5;
@@ -11,6 +12,5 @@ public class Pascal_Triangle {
                 number=number*(i-k)/(k+1);
             }System.out.println();
         }
-
     }
 }
